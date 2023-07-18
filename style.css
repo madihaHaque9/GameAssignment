@@ -1,0 +1,289 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* nav styles */
+.nav-container{
+    min-height: 50px;
+    
+    display: flex;
+    align-items: center;
+    background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+
+
+}
+.logo-container{
+    display: flex;
+    gap: 10px;
+    padding: 40px;
+    width: 50%;
+}
+.logo-container h3{
+    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 700;
+    width: 100px;
+
+}
+.logo-container img{
+    width: 100px;
+    
+
+    
+}
+.pinkG{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.nav-menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
+.nav-menu a{
+    text-decoration: none;
+    color: #3C354F;
+    font-weight: 500;
+    font-size: 0.7rem;
+}
+
+ .nav-container .nav-btn{
+    width: 100px;
+    padding: 5px;
+    
+background: rgba(11, 2, 35, 0.10);
+    color: #3C354F;
+    display: flex;
+    font-weight: 500;
+    text-align: center;
+    font-size: 0.6rem;
+    width: 100px;
+    border: none;
+    gap: 2px;
+    
+}
+.nav-btn{
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px 20px;
+
+}
+/* banner styles */
+.banner-container{
+   
+    background-color: #FFF;
+    max-width: 1400px;
+    margin: 50px 0 auto;
+    display: flex;
+    padding: 10px;
+
+}
+.banner-des{
+    width: 50%;
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    background-image: url("B8A2-Gamer-Zone/images/Group\ 14.png");
+    background-position:fixed;
+background-repeat: no-repeat;
+background-size: contain;
+background-attachment: fixed;
+text-align: center ;
+
+overflow: hidden;
+
+  
+
+
+
+}
+.banner-des h1{
+  
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 3rem;
+font-weight: 700;
+
+
+}
+.banner-des h2{
+    color: #0B0223;
+    font-weight: 600;
+    font-size: 2.5rem;
+
+}
+.banner-des p{
+    color: #534C64;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.banner-img{
+    width: 50%;
+
+}
+.banner-img img{
+    width: 100%;
+    height: 100%;
+}
+.sign{
+    border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+color: white;
+display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border: none;
+font-size: 10px;
+font-style: normal;
+font-weight: 600;
+margin-right: 20px;
+
+text-transform: uppercase;
+
+}
+.rogue{
+    border-radius: 48px;
+background: #4EC5F7;
+display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+color: #FFF;
+margin-right: 20px;
+
+font-size: 10px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+border: none;
+
+}
+/* banner-2 styles */
+.banner-2{
+    
+    background-color: #f8e4e4;
+    max-width: 1400px;
+    margin: 50px 0 auto;
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    margin-right: 5px;
+    gap: 20px;
+
+}
+.banner-2 h2{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 3rem;
+font-weight: 700;
+
+}
+.banner-img-2{
+    width: 100%;
+}
+.banner-img-2 img{
+    width: 100%;
+    height: 100%;
+}
+.banner-des-2{
+    width: 50%;
+}
+/* cards style */
+.grid-container{
+    display: grid;
+    max-width: 1400px;
+    margin: 0 auto;
+    min-height: 200px;
+    grid-template-columns: repeat(4,1fr);
+   text-align: center;
+   margin-top: 20px;
+
+}
+.card{
+    width: 100%;
+
+}
+.card img{
+    width: 70%;
+}
+.card-header{
+    color: #0B0223;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.violet{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.card-des{
+    margin-top: 20px;
+    color: #534C64;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+.card-des-2{
+    color: #534C64;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+
+
+/* responsive for mobile */
+@media screen and (max-width:572px){
+    /* nav styles */
+    .nav-container,.nav-menu,.banner-2{
+        flex-direction: column;
+
+    }
+    .nav-menu a{
+        margin-top:10px ;
+    }
+    .nav-container .nav-btn{
+        width: 100%;
+    }
+    .nav-menu{
+        width: 100%;
+    }
+    /*  */
+    .banner-container{
+        flex-direction: column-reverse;
+
+    }
+    .banner-des{
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+
+    }
+    .banner-img{
+        width: 100%;
+      
+
+    }
+    .banner-des-2{
+        width: 100%;
+        text-align: center;
+    }
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
+
+}
