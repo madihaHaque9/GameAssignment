@@ -305,6 +305,14 @@ background-clip: text;
     border-radius: 50px;
     background-color: #FFFFFF;
 }
+
+  
+.main-buttons button:hover{
+    color: #FF42A5;
+    border: 2px solid #FF42A5;
+    background-color: #FFFFFF;
+    transition: 0.3s;
+}
 /* footer style */
 footer{
    background-color: #0B0223;
@@ -350,6 +358,60 @@ footer{
 
 
 /* responsive for mobile */
+@media screen and (max-width:768px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+    }
+    .main-cover-section{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        margin: 0 auto;
+    }
+    .main-cover-img{
+        text-align: center;
+    }
+    .side-img {
+        width: 100px;
+        border: none;
+        bottom: 50px;
+        right: 20px;
+    }
+    .main-cover-container{
+        margin-right: 10px;
+        margin-top: 100px;
+    }
+    .main-cover-section .main-cover-des{
+        text-align: center;
+        
+    }
+    .main-cover-container h2{
+        text-align: center;
+    }
+   
+    .main-cover-img img{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .main-buttons {
+        display: grid;
+        grid-template-columns: repeat(3,3fr);
+        width: 100%;
+        margin: 20px;
+        padding: 10px;
+        background-color: white;
+     }
+     .main-buttons  button{
+         padding: 3px;
+         width: 100%;
+         font-size: 0.4rem;
+         margin:  auto;
+         /* margin-left:auto;
+         margin-right: auto; */
+     }
+}
 @media screen and (max-width:572px){
     /* nav styles */
     .nav-container,.nav-menu,.banner-2,.main-cover-section{
